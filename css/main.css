@@ -1,0 +1,20 @@
+.btn-karin {
+  border: solid white 1px;
+}
+
+.transparent :hover {
+  background-color: #FE283C !important;
+}
+
+.karin-extreme-dark-bg {
+  background-color: #131337;
+}
+
+.karin-dark-bg {
+  background-color: #0C1242;
+}
+
+.karin-red {
+  background-color: #FE283C;
+}
+/*# sourceMappingURL=main.css.map */
