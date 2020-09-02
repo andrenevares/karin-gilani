@@ -1,20 +1,145 @@
-.btn-karin {
-  border: solid white 1px;
+/* 
+
+I used Materialize CSS
+Some classes are custom
+I´ve made some changes also in the Materialize.CSS
+
+0. Used Colors 
+1. Buttons
+*/
+
+/* Colors Used */
+.azul-escuro {
+  background-color: #121139;
 }
 
-.transparent :hover {
-  background-color: #FE283C !important;
+.azul {
+  background-color: #0d1347;
 }
 
-.karin-extreme-dark-bg {
-  background-color: #131337;
+.vermelho {
+  background-color: #ff273c
 }
 
-.karin-dark-bg {
-  background-color: #0C1242;
+
+/* 1. Buttons - START */
+.btn {
+  border-radius: 30px;
 }
 
-.karin-red {
-  background-color: #FE283C;
+.btn-border {
+  border: 1px solid #fff
 }
-/*# sourceMappingURL=main.css.map */
+
+.btn.transparent:hover {
+  background-color: #ff273c !important;
+  border: 1px solid #ff273c !important;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-right: 10px;
+}
+
+
+.icones-header {
+  font-size: 35px;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* Custom Buttons - START */
+
+.transparent ul li.red-hover:hover {
+  background-color: #ff273c !important;
+}
+
+.primary-overlay {
+  background: rgba(18, 17, 57, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/karin-draft_1920_800.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.main-header .showcase {
+  padding-top: 80px;
+}
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
+
+
+.section-developers {
+  position: relative;
+  background: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast a {
+  margin-top: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.9);
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
