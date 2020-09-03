@@ -1,11 +1,11 @@
 /* 
 
+I used Materialize CSS
+Some classes are custom
+I´ve made some changes also in the Materialize.CSS
+
 0. Used Colors 
 1. Buttons
-2. Spaces
-3. Nav
-4. Social Icons
-
 */
 
 @font-face {
@@ -18,7 +18,7 @@
   background-color: #0d1347;
 }
 
-
+/* Colors Used */
 .signature {
   font-family: emmanuelasaragih;
   padding-top: 0;
@@ -26,7 +26,6 @@
   font-size: 2rem;
 }
 
-/* Colors Used */
 .azul-escuro {
   background-color: #121139;
 }
@@ -38,7 +37,6 @@
 .vermelho {
   background-color: #ff273c
 }
-
 
 /* 1. Buttons - START */
 .btn {
@@ -54,17 +52,6 @@
   border: 1px solid #ff273c !important;
 }
 
-.btn.red {
-  border: #b71c1c 1px solid !important;
-}
-
-.btn.red:hover {
-  background-color: #b71c1c !important;
-  border: #b71c1c 1px solid !important;
-}
-
-
-/* Margin */
 .mr-10 {
   margin-right: 10px;
 }
@@ -73,32 +60,13 @@
   margin-right: 10px;
 }
 
-/* Custom Line */
-.divider.custom.red.line {
-  padding-top: 0 !important;
-  height: 3px !important;
-  width: 75px;
-}
-
-/* Social Media Icon */
-.icones-footer,
 .icones-header {
   font-size: 35px;
   padding-top: 0px;
-  margin-top: 10px;
+  margin-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-
 }
-
-.social-icons-colors {
-  color: #fff !important;
-}
-
-.social-icons-colors:hover {
-  color: #ff273c !important;
-}
-
 
 /* Custom Buttons - START */
 
@@ -125,19 +93,7 @@
 }
 
 .main-header .showcase {
-  padding-top: 50px;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
-.pl-20 {
-  padding-left: 20px;
-}
-
-.ml-30 {
-  margin-left: 30px;
+  padding-top: 80px;
 }
 
 .main-header-inner {
